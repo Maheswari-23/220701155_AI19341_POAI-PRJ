@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Apex Learning Platform</title>
+</head>
+<body>
+    <nav>
+        <img src="logo.png" alt="logo" class="logo">
+        <div class="nav-links">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#courses">Courses</a>
+            <a href="#testimonials">Testimonials</a>
+            <a  href="#footer">Contact</a>
+        </div>
+    </nav>
+    
+    <section class="hero" id="hero">
+        <div class="content">
+            <h1 class="typing-animation">Welcome to Apex</h1>
+            <p class="tagline">Discover your learning style and learn the best through it</p>
+            <a><button class="btn-gradient">Get Started</button></a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="abt">About</h1>
+        <p class="para" >Apex is an AI-powered learning platform designed to revolutionize personalized education. 
+            Built to cater to the diverse learning styles and preferences of students, 
+            Apex uses advanced AI algorithms to assess each user's unique learning style and deliver tailored content for a more engaging and
+             effective learning experience.Through an initial self-assessment, Apex analyzes the learner's visual, auditory, kinesthetic, 
+             and cognitive preferences. This powerful learning style detection model then curates personalized educational modules, quizzes, 
+             and interactive content that adapt to the student's needs, ensuring continuous progress and motivation.Our platform offers dynamic 
+             learning paths that evolve based on real-time feedback from students, ensuring that the content stays relevant, engaging, and 
+             effective. Apex tracks student progress, monitors performance, and uses AI to adjust content flow for optimal learning outcomes.</p>
+    
+             <div class="learning-styles">
+                <h3 style="color:#4befd4;">Learning Styles</h3>
+                <div class="style-cards">
+                    <div class="style-card">
+                        <img src="vision.png" alt="Visual Learners Image" class="style-card-image">
+                        <h4 style="color:#ccd059">Visual Learners</h4>
+                        <p>Visual learners benefit from infographics, mind maps, interactive diagrams, video tutorials with visual representations, and well-structured color-coded notes that help retain information effectively.</p>
+                    </div>
+                    <div class="style-card">
+                        <img src="audio.png" alt="Auditory Learners Image" class="style-card-image">
+                        <h4 style="color:#ccd059">Auditory Learners</h4>
+                        <p>Auditory learners excel with narrated lessons, audio guides, podcast-style explanations, voice-based learning modules, and thrive in group discussions or debates for enhanced understanding.</p>
+                    </div>
+                    <div class="style-card">
+                        <img src="idea.png" alt="Kinesthetic Learners Image" class="style-card-image">
+                        <h4 style="color:#ccd059">Kinesthetic Learners</h4>
+                        <p>Kinesthetic learners engage through hands-on activities, practical exercises, interactive simulations, role-playing, physical tasks, and projects focused on real-world problem-solving for active learning.</p>
+                    </div>
+                    <div class="style-card">
+                        <img src="read.png" alt="Read/Write Learners Image" class="style-card-image">
+                        <h4 style="color:#ccd059">Read/Write Learners</h4>
+                        <p>Read/Write learners thrive on textual content, and Apex provides them with access to comprehensive written resources, including detailed articles, written explanations, summaries, and research papers.</p>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            
+            
+    </section>
+
+
+    <section class="services" id="services">
+        <h2 class="abt">Unlock Your Potential</h2>
+        <div class="services-slider">
+            <div class="slider-container">
+                <div class="service-card">
+                    <img class="fea" src="ai.png">
+                    <h4 style="color:rgb(184, 184, 64);font-weight: bold;">AI-Powered Learning Style Prediction</h4>
+                    <p>Uses AI to accurately predict each student's learning style.</p>
+                </div>
+                <div class="service-card">
+                    <img class="fea" src="personalized.png">
+                    <h4 style="color:rgb(184, 184, 64);font-weight: bold;">Personalized Content Delivery</h4>
+                    <p>Apex dynamically delivers personalized educational content, such as quizzes, videos, and activities, aligned with the user's learning style.</p>
+                </div>
+                <div class="service-card">
+                    <img class="fea" src="dynamic.png">
+                    <h4 style="color:rgb(184, 184, 64);font-weight: bold;">Dynamic Content Adjustment</h4>
+                    <p>Content can be altered in real-time based on student feedback after completing each module.</p>
+                </div>
+                <div class="service-card">
+                    <img class="fea" src="track.png">
+                    <h4 style="color:rgb(184, 184, 64);font-weight: bold;">Tracking Learning Progress</h4>
+                    <p>Track performance across various metrics, such as completion rates, accuracy, and time spent on lessons.</p>
+                </div>
+                <div class="service-card">
+                    <img class="fea" src="real.png">
+                    <h4 style="color:rgb(184, 184, 64);font-weight: bold;">Real-Time Adaptive Content</h4>
+                    <p>The platform uses Generative AI to generate and modify quizzes, assessments, and simulations in real-time, adapting to student interactions and performance as they progress through the learning modules.</p>
+                </div>
+                <div class="service-card">
+                    <img class="fea" src="colla.png">
+                    <h4 style="color:rgb(184, 184, 64);font-weight: bold;">Collaborative Learning</h4>
+                    <p>Students can collaborate on group projects, participate in discussions, and share knowledge through AI-facilitated sessions,video conferencing and chat systems.</p>
+                </div>
+                <div class="service-card">
+                    <img src="security.png" class="fea">
+                    <h4 style="color:rgb(184, 184, 64);font-weight: bold;">Security and Privacy</h4>
+                    <p>Apex is fully compliant with global data privacy standards, such as GDPR, ensuring that student data is protected.</p>
+                </div>
+                
+            </div>
+            <a href="#" class="slider-nav prev">&lt;</a>
+            <a href="#" class="slider-nav next">&gt;</a>
+        </div>
+        <div class="slider-dots"></div>
+    </section>
+
+    <script>
+        const slider = document.querySelector('.slider-container');
+        const cards = document.querySelectorAll('.service-card');
+        const dotsContainer = document.querySelector('.slider-dots');
+        let currentIndex = 0;
+
+        // Create dots
+        cards.forEach((_, index) => {
+            const dot = document.createElement('div');
+            dot.classList.add('dot');
+            if (index === 0) dot.classList.add('active');
+            dot.addEventListener('click', () => goToSlide(index));
+            dotsContainer.appendChild(dot);
+        });
+
+        function updateSlider() {
+            const offset = currentIndex * -320; // 300px card width + 20px margin
+            slider.style.transform = `translateX(${offset}px)`;
+            updateDots();
+        }
+
+        function updateDots() {
+            document.querySelectorAll('.dot').forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentIndex);
+            });
+        }
+
+        function goToSlide(index) {
+            currentIndex = index;
+            updateSlider();
+        }
+
+        document.querySelector('.prev').addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + cards.length) % cards.length;
+            updateSlider();
+        });
+
+        document.querySelector('.next').addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % cards.length;
+            updateSlider();
+        });
+
+        updateSlider();
+    </script>
+
+
+    <section class="courses" id="courses">
+        <h2 class="abt">Explore Our Courses</h2>
+        <div class="featured-courses">
+            <div class="course-card">
+                <h4>Course Title 1</h4>
+                <p>Brief description of course 1.</p>
+                <img src="course1-preview.png" alt="Course 1 Preview">
+                <a><button class="btn-gradient">Learn More</button></a>
+            </div>
+            <div class="course-card">
+                <h4>Course Title 2</h4>
+                <p>Brief description of course 2.</p>
+                <img src="course2-preview.png" alt="Course 2 Preview">
+                <a><button class="btn-gradient">Learn More</button></a>
+            </div>
+            <div class="course-card">
+                <h4>Course Title 3</h4>
+                <p>Brief description of course 3.</p>
+                <img src="course3-preview.png" alt="Course 3 Preview">
+                <a><button class="btn-gradient">Learn More</button></a>
+            </div>
+            <div class="course-card">
+                <h4>Course Title 4</h4>
+                <p>Brief description of course 4.</p>
+                <img src="course4-preview.png" alt="Course 4 Preview">
+                <a><button class="btn-gradient">Learn More</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <h2 class="abt">Success Stories</h2>
+        <div class="testimonial-section">
+            <div class="testimonial">
+                <p class="testimonial-text">"Apex transformed my learning experience! The personalized approach helped me achieve my goals faster than I ever thought possible."</p>
+                <div class="testimonial-author">
+                    <img src="man.png" alt="John Doe" class="author-avatar">
+                    <div class="author-info">
+                        <span class="author-name">John Doe</span>
+                        <span class="author-title">Software Developer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <p class="testimonial-text">"The community support at Apex is incredible! I've made great connections and learned so much from both the courses and my peers."</p>
+                <div class="testimonial-author">
+                    <img src="girl.png" alt="Alex Johnson" class="author-avatar">
+                    <div class="author-info">
+                        <span class="author-name">Zeny</span>
+                        <span class="author-title">Student</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <p class="testimonial-text">"The adaptive courses and interactive tools made learning enjoyable and effective. I've recommended Apex to all my colleagues!"</p>
+                <div class="testimonial-author">
+                    <img src="profile.png" alt="Jane Smith" class="author-avatar">
+                    <div class="author-info">
+                        <span class="author-name">Ria Doge</span>
+                        <span class="author-title">Marketing Specialist</span>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    
+
+
+    <footer class="footer" id="footer" >
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#courses">Courses</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#cta">Contact</a>
+            </div>
+            <div class="contact-info">
+                <p>Email: info@apex.com</p>
+                <p>Phone: 123-456-7890</p>
+            </div>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+            <p>&copy; 2024 Apex Learning Platform. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
